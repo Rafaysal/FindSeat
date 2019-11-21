@@ -57,7 +57,7 @@ async function enterName() {
     info3.innerHTML = ''
     //Condition if something was entered in to the input field
     if(firstName){
-    wrongName.innerHTML = `Sorry, cannot find ${firstName} in the system`
+    wrongName.innerHTML = `Sorry, cannot find ${name} in the system`
     } // Condition if nothing was entered in to the input field
     else{ 
       wrongName.innerHTML = 'Please enter a name!'

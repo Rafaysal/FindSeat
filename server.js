@@ -5,10 +5,10 @@ const fs = require('fs')
 
 
 app.use(express.static(__dirname + '/public'));
-
+//Extracting json data 
 let rawdata = fs.readFileSync('data.json');
 let data = JSON.parse(rawdata);
-
+//Parsing data before it is sent to the post end point using Middleware
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
   
