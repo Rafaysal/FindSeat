@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Caseware Seat Finder</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/index.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+            <!--Container Box-->
+            <div id = 'box'></div>
+                <!--Logo-->
+                <img id = 'logo' src = 'images/casewarelogo.png'>
+                <!--Box header-->
+                <div id = 'heading'>Seat Lookup</div>
+                <!--Input element and it's container-->
+                <div id = 'input-box'></div>
+                <input id = 'input' type = 'text' name = 'fullname' placeholder = 'Enter a name...'>
+                <!--Contains on-click elements which sends input to app.js-->
+                <div onclick = 'enterName()' id = 'submit-text'>GO</div>
+                <button onclick = 'enterName()' id = 'submit-box'></button>
+                <!--Divs below will be filled after positive response-->
+                <div id = 'container'>
+                <div id = 'info1'> </div>
+                <div id = 'info2'></div>
+                <div id = 'info3'></div>
+                </div>
+                <!--Div below will fill after incorrect input-->
+                <div id = 'wrong-name'>
+                </div>
+                <!--Import app.js-->
+                <script src="/app.js"></script>
+</body>
+</html>

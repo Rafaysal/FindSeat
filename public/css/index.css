@@ -1,0 +1,362 @@
+@media only screen and (min-width: 1000px){
+body{
+    top: 0px;
+    left: 0px;
+    width: 1280px;
+    height: 800px;
+    background: transparent linear-gradient(247deg, #0684AC 0%, #0684AC66 100%) 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+    margin: 0px 0px;
+}
+
+#box{
+    position: absolute;
+    top: 115px;
+    left: 430px;
+    width: 420px;
+    height: 570px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 2px solid #C7972C;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+#logo{
+    position: absolute;
+    top: 134px;
+    left: 455px;
+    width: 185px;
+    height: 33px;
+    opacity: 1;  
+}
+
+#heading{
+    position: absolute;
+    top: 207px;
+    left: 533px;
+    width: 214px;
+    height: 48px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 39px; 
+    letter-spacing: 0;
+    color: #3B3939D6;
+    opacity: 1;
+}
+
+.animate{
+    animation: shake 0.4s 2 ease-in;
+    color: red !important;
+}
+
+@keyframes shake{
+   0%{
+      transform: rotate(0deg)
+   } 25%{
+      transform: rotate(-10deg)
+   }
+     50%{
+      transform: rotate(0deg)    
+   } 75%{
+       transform: rotate(10deg)
+   }100%{
+      transform: rotate(0deg)
+   }
+    
+}
+
+#input-box{
+    position: absolute;
+    top: 295px;
+    left: 490px;
+    width: 300px;
+    height: 66px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+#input{
+    position: absolute;
+    top: 312px;
+    left: 507px;
+    width: 166px;
+    height: 30px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    letter-spacing: 0;
+    color: #3B3939D6;
+    opacity: 1;
+    border: 0px solid;
+    outline: none;
+}
+
+#submit-box{
+     position: absolute;
+    top: 421px;
+    left: 574px;
+    width: 132px;
+    height: 49px;
+    background: #0885AC 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    outline: none;
+}
+
+#submit-box:hover{
+    background: black;
+    cursor: pointer;
+}
+
+#submit-text{
+    position: absolute;
+    z-index: 1000;
+    top: 430px;
+    left: 621px;
+    width: 38px;
+    height: 30px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+}
+#submit-text:hover + #submit-box{
+    cursor: pointer;
+    background: black !important;
+    color: red;
+}
+#container{
+    position: absolute;
+    top: 520px;
+    left: 497px;
+    width: 286px;
+    height: 102px;
+}
+#container div{
+    
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    letter-spacing: 0;
+    color: #0885AC;
+    
+}
+
+.fade{
+    animation: fade 1s infinite ease-in;
+}
+@keyframes fade{
+    0%{
+        opacity: 0;
+    }100%{
+        opacity: 1;
+    }
+}
+
+#wrong-name{
+    position: absolute;
+    top: 520px;
+    left: 492px;
+    width: 295px;
+    height: 68px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    letter-spacing: 0;
+    color: #DE0000;
+    opacity: 1;
+}
+}
+
+
+
+/*Responsive css for phones in both potrait and landscape mode*/
+
+@media only screen and (max-width: 1000px){
+    
+    body{
+        margin: 0px 0px;
+    }
+    
+    #box{
+        position: absolute;
+        width: 99%;
+        height: 99%;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 6px #00000029;
+        border: 2px solid #C7972C;
+        border-radius: 10px;
+        opacity: 1;
+    }
+   
+    #logo{
+        position: absolute;
+        top: 3.3%;
+        left: 5.9%;
+        width: 185px;
+        height: 33px;
+        opacity: 1;  
+    }
+    
+    #heading{
+        position: absolute;
+        top: 16.14%;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: 214px;
+        height: 48px;
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        font-size: 39px; 
+        letter-spacing: 0;
+        color: #3B3939D6;
+        opacity: 1;
+    }
+    
+    .animate{
+        animation: shake 0.4s 2 ease-in;
+        color: red !important;
+    }
+    
+    @keyframes shake{
+       0%{
+          transform: rotate(0deg)
+       } 25%{
+          transform: rotate(-10deg)
+       }
+         50%{
+          transform: rotate(0deg)    
+       } 75%{
+           transform: rotate(10deg)
+       }100%{
+          transform: rotate(0deg)
+       }
+        
+    }
+
+    #input-box{
+        position: absolute;
+        top: 31.6%;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: 300px;
+        height: 66px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 6px #00000029;
+        border: 1px solid #707070;
+        opacity: 1;
+    }
+   
+    #input{
+        position: absolute;
+        top: 34.6%;
+        /*left: 18.3%;*/
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: 166px;
+        height: 30px;
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        font-size: 25px;
+        letter-spacing: 0;
+        color: #3B3939D6;
+        opacity: 1;
+        border: 0px solid;
+        outline: none;
+    }
+     
+    #submit-box{
+        position: absolute;
+        top: 53.7%;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: 132px;
+        height: 49px;
+        background: #0885AC 0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 6px #00000029;
+        opacity: 1;
+        outline: none;
+    }
+
+    #submit-box:hover{
+        background: black;
+        cursor: pointer;
+    }
+    
+    #submit-text{
+        position: absolute;
+        z-index: 1000;
+        top: 55%;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: 38px;
+        height: 30px;
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        font-size: 25px;
+        letter-spacing: 0;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+    #submit-text:hover{
+        cursor: pointer;
+    }
+    #container{
+        position: absolute;
+        top: 71.1%;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: 346px;
+        height: 102px;
+    }
+    #container div{
+        
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 25px;
+        letter-spacing: 0;
+        color: #0885AC;
+        opacity: 1;
+    }
+    .fade{
+        animation: fade 1s infinite ease-in;
+    }
+    @keyframes fade{
+        0%{
+            opacity: 0;
+        }100%{
+            opacity: 1;
+        }
+    }
+    
+    #wrong-name{
+        position: absolute;
+        top: 71.1%;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: 295px;
+        height: 68px;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 24px;
+        letter-spacing: 0;
+        color: #DE0000;
+        opacity: 1;
+    }
+    }
+    
+    
+  
